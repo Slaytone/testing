@@ -1,5 +1,19 @@
-import React from 'react';
+import React from "react";
+import ContactList from "../contactList/contactList.js"
+import SearchField from "../searchField/searchField.js"
 
+class App extends React.Component{
+    render() {
+        return (
+                <div>
+                    <div hidden> <SearchField/> </div>
+                    <ContactList/>
+                </div>
+        )
+    }
+}
+
+/*
 function App() {
   return (
     <div className="App">
@@ -20,5 +34,6 @@ function App() {
     </div>
   );
 }
+*/
 
 export default App;

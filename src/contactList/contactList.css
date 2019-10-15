@@ -1,0 +1,14 @@
+*{
+    background-color: lightgrey;
+}
+li {
+    text-decoration: none;
+    height: 50px;
+    border-bottom: 1px solid gray;
+    margin: 5px;
+    font-size: 1vmax;
+}
+
+li:hover {
+    background-color: lightblue;
+}
